@@ -1,4 +1,4 @@
-#Sam Portfolio 
+# Sam Portfolio 
 This is my Web Developer Portfolio which will showcase the projects that I will be taking part in or individual projects that will be mostly for the personal learning purpose.
 
 This portfolio is made using **React**, **Node.js** and **Bootstrap**. I also used Animate.css In some cases 

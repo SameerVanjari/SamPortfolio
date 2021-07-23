@@ -59,7 +59,7 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="">
             <Home projects={projects} />
           </Route>
           <Route exact path="/about">

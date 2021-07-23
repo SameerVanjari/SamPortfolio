@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './css/home.css'
 import { RiFacebookFill, RiGithubFill, RiInstagramFill, RiLinkedinFill } from 'react-icons/ri'
 
-export const Home = (props) => {
+export const Home = () => {
     let styler = {
         height: "89vh",
         paddingTop: "10rem",

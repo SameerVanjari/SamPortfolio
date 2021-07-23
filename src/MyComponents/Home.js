@@ -17,9 +17,9 @@ export const Home = () => {
     return (
         <>
            
-            <div id="carouselExampleSlidesOnly" class="carousel slide" style={styler}>
-                <div class="carousel-inner container">
-                    <div class="carousel-item active">
+            <div id="carouselExampleSlidesOnly" className="carousel slide" style={styler}>
+                <div className="carousel-inner container">
+                    <div className="carousel-item active">
                         <div className="row flex-lg-row align-items-center g-5 py-2">
                             <div className="col-lg-6 m-5 px-5 text-gray-100">
                                 <h1 className="display-5 fw-bold lh-1 mb-3 animate__animated animate__fadeIn">Hi,<br /> I'm Sameer<br />A Web Developer</h1>

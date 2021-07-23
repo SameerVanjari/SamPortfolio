@@ -59,8 +59,8 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route path="/">
-            <Home projects={projects} />
+          <Route exact path="/">
+            <Home />
           </Route>
           <Route exact path="/about">
             <About projects={projects} />

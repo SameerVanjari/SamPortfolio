@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export const Header = () => {
     return (
         <>
-        <nav className="text-white bg-dark body-font">
+        <div className="text-white bg-dark body-font">
             <div className="container mx-auto flex flex-wrap p-1 ps-5 pe-5 flex-col md:flex-row items-center">
                 <Link className="flex title-font font-medium items-center text-white mb-2 md:mb-0" to="">
                     {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-purple-500 rounded-full" viewBox="0 0 24 24">
@@ -22,7 +22,7 @@ export const Header = () => {
                 </nav>
                
             </div>
-        </nav>
+        </div>
 </>
 
     );

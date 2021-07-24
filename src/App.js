@@ -5,7 +5,7 @@ import { Home } from './MyComponents/Home';
 import {About} from './MyComponents/About';
 import Footer from './MyComponents/Footer';
 import './MyComponents/css/home.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 
 function App() {
 
@@ -60,7 +60,9 @@ function App() {
         <Header />
         <Switch>
           <Route exact path="/">
+            <Redirect to="/">
             <Home />
+            </Redirect>
           </Route>
           <Route path="/about">
             <About projects={projects} />

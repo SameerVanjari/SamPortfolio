@@ -60,9 +60,9 @@ function App() {
         <Header />
         <Switch>
           <Route exact path="/">
-            <Redirect to="/">
+        
             <Home />
-            </Redirect>
+          
           </Route>
           <Route path="/about">
             <About projects={projects} />
